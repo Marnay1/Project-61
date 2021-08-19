@@ -1,0 +1,72 @@
+section {
+    height: 700px;
+}
+
+#welcome {
+    background: linear-gradient(orangered, blue);
+}
+
+html {
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#bio {
+    padding: 20px;
+    text-align: center;
+    font-size: 20;
+    font-family: 'Oswald', sans-serif;
+    color: crimson;
+    background: linear-gradient(gold, purple)
+}
+
+hr {
+    background-color: black;
+    width: 75px;
+    height: 6px;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: left;
+    position: fixed;
+    right: 30px;
+    top: 10px; 
+    z-index: 10;
+    font-size: 15px;
+    cursor: pointer;
+    color: mediumpurple;
+}
+.links{
+    display: inline;
+    padding: 10px;
+}
+.links:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+#Favorite{
+    background: linear-gradient(aqua, coral);
+}
+#vg{
+    background: linear-gradient(lightgreen, skyblue);
+}
+#Inspiration{
+    background: linear-gradient(blueviolet, forestgreen);
+}
+.content_1{
+    background: linear-gradient(blue, orange);
+    
+}
+#Contact iframe{
+    width: 100%;
+}
+.content_1 h3{
+    display: inline;
+    color: white;
+}
